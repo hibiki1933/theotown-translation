@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><resources>
     <string name="app_name">TheoTown</string>
-    <string name="settings_title">設置</string>
+    <string name="settings_title">設定</string>
     <string name="loadcity_title">加載城市</string>
     <string name="createcity_title">新建城市</string>
-    <string name="settings_defaults">重置</string>
+    <string name="settings_defaults">默認</string>
     <string name="settings_apply">應用</string>
     <string name="createcity_mapsize">大小:</string>
-    <string name="createcity_cityname">城市名稱</string>
+    <string name="createcity_cityname">城市名稱:</string>
     <string name="control_back">返回</string>
     <string name="createcity_start">開始</string>
     <string name="loadcity_load">開始</string>
-    <string name="welcome_agree">接受</string>
+    <string name="welcome_agree">我接受</string>
     <string name="welcome_content">歡迎來到TheoTown
 
 \n\n這是一個還處於開發階段的App，所以有些功能不是太完善，有時也會出現一些小bug。請不要因為這些小瑕疵給差評。請記住這是一個免費的遊戲哦！
@@ -21,9 +21,9 @@
     <string name="game_date">%1$,d.%2$,d.%3$,d</string>
     <string name="game_habitants">居民: %1$,d</string>
     <string name="game_cityname">%1$s</string>
-    <string name="createcity_seed">隨機值:</string>
+    <string name="createcity_seed">種子:</string>
     <string name="createcity_sizesmall">小</string>
-    <string name="createcity_sizemiddle">適中</string>
+    <string name="createcity_sizemiddle">中</string>
     <string name="createcity_sizebig">大</string>
     <string name="createcity_sizeother">其他</string>
     <string name="game_monthlyincome">%1$,+d</string>
@@ -34,21 +34,21 @@
     <string name="settings_resolutionnormal">正常</string>
     <string name="settings_resolutionbig">大</string>
     <string name="settings_resolutionbigbig">很大</string>
-    <string name="settings_resolution">分辨率</string>
+    <string name="settings_resolution">解析度</string>
     <string name="dialog_nocities_title">找不到城市</string>
     <string name="dialog_nocities_text">你還沒有任何城市, 請建一個新的城市。</string>
     <string name="dialog_nocities_cmdback">取消</string>
     <string name="dialog_nocities_cmdnewcity">新建城市</string>
     <string name="settings_showads">顯示廣告</string>
-    <string name="settings_drawcars">顯示汽車</string>
-    <string name="settings_drawsmoke">煙</string>
+    <string name="settings_drawcars">渲染汽車</string>
+    <string name="settings_drawsmoke">渲染煙</string>
     <string name="settings_transparencybuildmode">建築模式透明視圖</string>
     <string name="settings_buildgrid">建築模式顯示柵格</string>
     <string name="settings_doublecardrawing">加強汽車描繪</string>
     <string name="settings_drawwatersparkle">水光效果</string>
     <string name="settings_drawmapedges">地圖邊緣</string>
     <string name="settings_hideads_title">隱藏廣告</string>
-    <string name="settings_hideads_text">如果你這的想要關閉廣告的話, 請把TheoTown推薦給你的朋友以便繼續支持我們。</string>
+    <string name="settings_hideads_text">如果你真的想要關閉廣告的話, 請把TheoTown推薦給你的朋友以便繼續支持我們。</string>
 
 \n\n你確定要關閉廣告嗎?</string>
     <string name="settings_hideads_yes">超級確定</string>
@@ -57,7 +57,7 @@
     <string name="loadcity_errordialog_text">這個城市不能成功加載，因為所需的文件已損壞。\n\n我們很抱歉。</string>
     <string name="loadcity_errordialog_cmdcancel">取消</string>
     <string name="dialog_screenshot_title">屏幕截圖</string>
-    <string name="dialog_screenshot_text">截圖以保存在%1$s。</string>
+    <string name="dialog_screenshot_text">截圖已保存在%1$s。</string>
     <string name="dialog_screenshot_cmdok">好的,謝謝</string>
     <string name="draftselector_titleparks">綠化</string>
     <string name="draftselector_titlepublics">公共</string>
@@ -65,7 +65,7 @@
     <string name="draftselector_titlewater">水</string>
     <string name="draftselector_titleschool">教育</string>
     <string name="draftselector_titlehealth">健康</string>
-    <string name="draftselector_titlepolice">警察局</string>
+    <string name="draftselector_titlepolice">警察</string>
     <string name="draftselector_titlefiredepartment">消防</string>
     <string name="draftselector_cmdbuild">建造</string>
     <string name="draftselector_price">價錢: %s</string>
@@ -82,25 +82,25 @@
     <string name="dialog_leave_cmdcancel">取消</string>
     <string name="dialog_leave_cmdleave">退出</string>
     <string name="savewaiting_title">保存城市</string>
-    <string name="loadwaiting_title">載入城市</string>
+    <string name="loadwaiting_title">加載城市</string>
     <string name="dialog_invalidcityname_title">無效名稱</string>
     <string name="dialog_invalidcityname_text">請給你的城市換一個名字, 城市名不能是空的哦。</string>
     <string name="dialog_invalidcityname_cmdok">同意</string>
     <string name="dialog_hugesize_title">大型地圖</string>
-    <string name="dialog_hugesize_text">大型地圖目前處於測試階段且對硬件要求很高。你確定你想要這樣的地圖嗎?</string>
+    <string name="dialog_hugesize_text">大型地圖目前處於測試階段且對硬體要求很高。你確定你想要這樣的地圖嗎?</string>
     <string name="dialog_hugesize_cmdyes">當然了</string>
     <string name="dialog_hugesize_cmdno">不</string>
     <string name="draft_church00_title">教堂</string>
     <string name="draft_church00_text">每個小鎮都需要一個教堂</string>
     <string name="draft_townhall00_title">大型市政廳</string>
-    <string name="draft_townhall00_text">一個較大的城鎮需要一個市政廳, 居民會喜它的。</string>
+    <string name="draft_townhall00_text">一個較大的城鎮需要一個市政廳, 居民會喜歡它的。</string>
     <string name="draft_wire00_title">輸電線</string>
     <string name="draft_wire00_text">可以把電力輸送到城市的各個角落。</string>
     <string name="draft_windturbine00_title">風力發電機</string>
     <string name="draft_windturbine00_text">風力發電機沒有污染, 但會產生噪音。</string>
-    <string name="draft_coalplant00_title">火力發電站</string>
+    <string name="draft_coalplant00_title">火力發電廠</string>
     <string name="draft_coalplant00_text">火力發電廠可以產生大量電力, 但會有害於環境。</string>
-    <string name="draft_solarpanels00_title">太陽能發電站</string>
+    <string name="draft_solarpanels00_title">太陽能發電廠</string>
     <string name="draft_solarpanels00_text">昂貴, 但是不會產生污染或者噪音。</string>
     <string name="draft_park00_title">小花壇</string>
     <string name="draft_park00_text">美化周邊環境。</string>
@@ -110,9 +110,9 @@
     <string name="draft_park02_text">居民日常休息娛樂必備。</string>
     <string name="draft_park03_title">小型公園</string>
     <string name="draft_waterfountain00_title">噴泉</string>
-    <string name="draft_waterfountain00_text">一個漂亮的混圈會提高周邊的檔次。</string>
+    <string name="draft_waterfountain00_text">一個漂亮的公圈會提高周邊的檔次。</string>
     <string name="draft_bigpark00_title">大型公園</string>
-    <string name="draft_bigpark00_text">居民會喜歡這個大公園的。</string>
+    <string name="draft_bigpark00_text">居民會喜歡這個大型公園的。</string>
     <string name="draft_park03_text">居民們會喜歡它的。</string>
     <string name="draft_medic00_title">醫療中心</string>
     <string name="draft_medic00_text">居民可以在這裡享受到便捷的醫療服務。</string>
@@ -133,17 +133,17 @@
     <string name="settings_areazonetool">:)</string>
     <string name="createcity_gamemode">遊戲模式</string>
     <string name="gamemode_easy">簡單</string>
-    <string name="gamemode_middle">中等</string>
-    <string name="gamemode_hard">高難</string>
-    <string name="game_infinitemoney">自由遊戲</string>
+    <string name="gamemode_middle">普通</string>
+    <string name="gamemode_hard">困難</string>
+    <string name="game_infinitemoney">自由</string>
     <string name="about_title">製作團隊</string>
     <string name="about_cmdback">返回</string>
     <string name="about_text">來自於他們的努力</string>
     <string name="settings_music">音樂</string>
     <string name="draftselector_titleaward">獎賞</string>
     <string name="shader_default">默認</string>
-    <string name="shader_test">Test</string>
-    <string name="settings_shader">Shader</string>
+    <string name="shader_test">測試</string>
+    <string name="settings_shader">著色器</string>
     <string name="shader_colorful">鮮艷</string>
     <string name="shader_gray">灰</string>
     <string name="shader_fancy">細膩</string>
@@ -178,10 +178,10 @@
     <string name="budget_ind2">工業 ₮₮₮ (%1$,d)</string>
     <string name="budget_park">公園</string>
     <string name="budget_education">教育</string>
-    <string name="budget_firebrigade">消防隊</string>
-    <string name="budget_police">警察局</string>
+    <string name="budget_firebrigade">消防</string>
+    <string name="budget_police">警察</string>
     <string name="budget_award">禮物</string>
-    <string name="budget_energy">能源供給</string>
+    <string name="budget_energy">能源</string>
     <string name="budget_water">供水</string>
     <string name="budget_public">公共建築</string>
     <string name="budget_medic">醫療保健</string>
@@ -253,8 +253,8 @@
     <string name="draft_zoneindustrial_title">工業區</string>
     <string name="draft_zoneindustrial_text">工廠將會被建在這裡。</string>
     <string name="draft_road00_title">支線公路</string>
-    <string name="draft_road00_text">建議的鄉村公路</string>
-    <string name="draft_road01_title">鄉下公路</string>
+    <string name="draft_road00_text">一條簡單的泥路。</string>
+    <string name="draft_road01_title">鄉間公路</string>
     <string name="draft_road01_text">車輛可以在這上面任意奔馳。</string>
     <string name="draftselector_titleterrain">地形</string>
     <string name="draft_terrainwater_title">水域</string>
@@ -264,13 +264,13 @@
     <string name="draft_tree00_title">樹木</string>
     <string name="draft_tree00_text">植樹造林, 宜居, 宜游, 宜生活。</string>
     <string name="draft_busstop00_title">公車站</string>
-    <string name="draft_busstop00_text">居民們從這裡乘上公交車以到達他們想去的地方。</string>
+    <string name="draft_busstop00_text">居民們從這裡乘上公車以到達他們想去的地方。</string>
     <string name="settings_orientation">屏幕方向</string>
     <string name="settings_orientationlandscape">橫屏</string>
     <string name="settings_orientationportrait">豎屏</string>
     <string name="settings_orientationauto">自動</string>
     <string name="draft_busdepot00_title">公車車庫</string>
-    <string name="draft_busdepot00_text">公交車由這裡出庫。</string>
+    <string name="draft_busdepot00_text">公車由這裡出庫。</string>
     <string name="settings_debugmode">Debug模式</string>
     <string name="unknown">香腸麵包</string>
     <string name="draftselector_titleremove">摧毀</string>
@@ -283,7 +283,7 @@
     <string name="draftselector_cmdview">顯示</string>
     <string name="busstopinfo_usage">乘客: %2$,d/%3$,d\n可用: %1$.1f%%</string>
     <string name="ci_rating_title">評分</string>
-    <string name="ci_energy_networks">%1$,d網絡</string>
+    <string name="ci_energy_networks">%1$,d網路</string>
     <string name="ci_energy_produced">生產: %1$,.0fkW (%2$,d建築物)</string>
     <string name="ci_energy_consumed">消耗: %1$,.0fkW (%2$,d建築物)</string>
     <string name="ci_energy_ratio">負荷率: %1$.1f%%</string>
@@ -311,7 +311,7 @@
     <string name="ci_rci_ind0">工業 ₮</string>
     <string name="ci_rci_ind1">工業 ₮₮</string>
     <string name="ci_rci_ind2">工業 ₮₮₮</string>
-    <string name="ci_general_population0">貧困戶 (₮): %1$,d</string>
+    <string name="ci_general_population0">貧困階級 (₮): %1$,d</string>
     <string name="ci_general_population1">中產階級 (₮₮): %1$,d</string>
     <string name="ci_general_population2">富裕階級 (₮₮₮): %1$,d</string>
     <string name="draft_footballfield00_title">足球場</string>
@@ -534,9 +534,9 @@
     <string name="draftselector_onlyone">只能建造一次。</string>
     <string name="draftselector_onlyn">只能建造%1$,d次。</string>
     <string name="draft_church02_title">小型教堂</string>
-    <string name="draft_church02_text">小城市的小教堂。</string>
+    <string name="draft_church02_text">小城市的小型教堂。</string>
     <string name="draft_mosque01_title">小型清真寺</string>
-    <string name="draft_mosque01_text">小地方的小清真寺</string>
+    <string name="draft_mosque01_text">小地方的小型清真寺</string>
     <string name="settings_sound_ui">UI音效</string>
     <string name="settings_sound_game">遊戲音效</string>
     <string name="settings_preserveedges">保留邊緣</string>
@@ -544,11 +544,11 @@
     <string name="ci_not_available">無可顯示信息</string>
     <string name="ci_education_title">教育</string>
     <string name="ci_health_title">健康</string>
-    <string name="ci_education_schools">小學: %1$,d</string>
+    <string name="ci_education_schools">學校: %1$,d</string>
     <string name="ci_education_needed">所需位置: %1$,d</string>
     <string name="ci_education_provided">可用位置: %1$,d</string>
     <string name="ci_education_reached">已用位置: %1$,d</string>
-    <string name="ci_education_low">小學教育</string>
+    <string name="ci_education_low">初等教育</string>
     <string name="ci_education_high">高等教育</string>
     <string name="ci_health_buildings">建築物: %1$,d</string>
     <string name="ci_health_provided">可用: %1$,d</string>
@@ -557,7 +557,7 @@
     <string name="influence_pollution_title">污染</string>
     <string name="influence_noise_title">噪音</string>
     <string name="influence_health_title">醫療保障</string>
-    <string name="influence_education_low_title">小學教育</string>
+    <string name="influence_education_low_title">初等教育</string>
     <string name="influence_education_high_title">高等教育</string>
     <string name="influence_police_title">警察局</string>
     <string name="influence_firedep_title">消防隊</string>
@@ -580,7 +580,7 @@
     <string name="ca_education_low_text">小學教育: %1$,d/%2$,d小學生</string>
     <string name="ca_education_high_text">高等教育: %1$,d/%2$,d大學生</string>
     <string name="ca_health_text">醫療設施: %1$,d/%2$,d患者</string>
-    <string name="gamemode_nomoney">No money</string>
+    <string name="gamemode_nomoney">無限金錢</string>
     <string name="draft_zoneharbor_title">港口</string>
     <string name="draft_zoneharbor_text">海岸線工業區</string>
     <string name="settings_auto_road_for_zones">自動築路</string>
@@ -679,8 +679,8 @@
     <string name="toolremove_zone_text">使用這個工具可以刪掉區域。</string>
     <string name="budget_rail">鐵路</string>
     <string name="budget_railstation">火車站</string>
-    <string name="draft_marker_ticketmarker_title">Tickets</string>
-    <string name="draft_marker_ticketmarker_text">Shows ticket satisfaction</string>
+    <string name="draft_marker_ticketmarker_title">票</string>
+    <string name="draft_marker_ticketmarker_text">顯示滿意度</string>
     <string name="trainstationinfo_usage">乘客: %2$,d/%3$,d\n可用: %1$.1f%%</string>
     <string name="draft_firedepartment01_title">小消防局</string>
     <string name="draft_firedepartment01_text">保障居民的安全, 消滅火災。</string>
@@ -696,7 +696,7 @@
     <string name="notify_noreszone">有人想要搬到我們的城市, 給他們建一個住宅區吧。</string>
     <string name="notify_nocomzone">建一個商業區以方便商店能出售它們的商品。</string>
     <string name="notify_noindzone">為工業建築建一個工業區。</string>
-    <string name="createcity_sizebigbigbig">超級大</string>
+    <string name="createcity_sizebigbigbig">巨大</string>
     <string name="locale">zh-rTW</string>
     <string name="draft_police02_title">S.W.A.T. HQ</string>
     <string name="draft_police02_text">突擊部隊保障城市的和平與秩序。</string>
@@ -716,7 +716,7 @@
     <string name="notify_bad_health">健康值低。我們需要提高環境評分, 或者建一所醫院。</string>
     <string name="dialog_rename_cmdok">重命名</string>
     <string name="dialog_rename_cmdcancel">取消</string>
-    <string name="dialog_renamecity_title">重命名城市sand</string>
+    <string name="dialog_renamecity_title">重命名城市</string>
     <string name="dialog_renamecity_text">情為你的城市輸入一個新名字。</string>
     <string name="dialog_renamebuilding_title">重命名建築物</string>
     <string name="dialog_renamebuilding_text">請給建築物輸入一個新名字。</string>
@@ -733,7 +733,7 @@
     <string name="createcity_cityauthor">作者：</string>
     <string name="about_homepage">主頁</string>
     <string name="oome_title">RAM不足</string>
-    <string name="oome_text">我們很抱歉，但是你的設備上似乎沒有足夠的空間給TheoTown了。</string>
+    <string name="oome_text">我們很抱歉，但是你的設備上似乎沒有足夠的RAM給TheoTown了。</string>
     <string name="createcity_trees">帶有樹木</string>
     <string name="dialog_closecity_text">想要在離開你的城市之前保存嗎？</string>
     <string name="dialog_closecity_title">離開城市</string>
@@ -776,21 +776,21 @@
     <string name="notify_unhappy">這裡的人們對%1$s不太滿意。你要試著提高他們的滿意度。</string>
     <string name="happiness_general">綜合滿意度</string>
     <string name="draft_rnk_isolateddwelling_title">孤立住宅</string>
-    <string name="draft_rnk_hamlet_title">哈姆雷特</string>
+    <string name="draft_rnk_hamlet_title">聚落</string>
     <string name="draft_rnk_village_small_title">小村莊</string>
     <string name="draft_rnk_village_medium_title">村莊</string>
     <string name="draft_rnk_village_big_title">大村莊</string>
     <string name="draft_rnk_town_small_title">小城鎮</string>
     <string name="draft_rnk_town_medium_title">城鎮</string>
     <string name="draft_rnk_town_big_title">大城鎮</string>
-    <string name="draft_rnk_town_large_title">中等城鎮</string>
+    <string name="draft_rnk_town_large_title">超大城鎮</string>
     <string name="draft_rnk_city_small_title">小城市</string>
     <string name="draft_rnk_city_medium_title">城市</string>
     <string name="draft_rnk_city_big_title">大城市</string>
     <string name="draft_rnk_city_large_title">超大城市</string>
-    <string name="draft_rnk_metropolis_title">大都市</string>
+    <string name="draft_rnk_metropolis_title">都會都市</string>
     <string name="draft_rnk_conurbation_title">集合都市</string>
-    <string name="draft_rnk_megalopolis_title">巨大都市</string>
+    <string name="draft_rnk_megalopolis_title">城市群</string>
     <string name="rank_needed_people">至少%1$,d居民</string>
     <string name="draft_decoroad00_title">林蔭大道裝飾</string>
     <string name="draft_decoroad00_text">.</string>
@@ -878,7 +878,7 @@
     <string name="control_on">開</string>
     <string name="control_off">關</string>
     <string name="draft_school03_title">大型高校</string>
-    <string name="draft_school03_text">一個更大的高校以容納更多的大學生。</string>
+    <string name="draft_school03_text">一個更大的高校以容納更多的學生。</string>
     <string name="gamemode_easy_desc">在這個遊戲模式中，你會在遊戲開始時得到一大筆金錢以降低遊戲難度。</string>
     <string name="gamemode_middle_desc">默認遊戲模式。遊戲開始時，你會得到一比金錢，你可以用它來建立你的夢想城市。</string>
     <string name="gamemode_hard_desc">你是TheoTown的高級玩家？那這個遊戲模式很適合你。遊戲開始時，你只會得到一點金錢。這是難度最高的模式。</string>
@@ -902,7 +902,7 @@
     <string name="features_notenough">不夠%1$s</string>
     <string name="dialog_getrank_text">如果你想要的話，你可以馬上解鎖這個等級。</string>
     <string name="features_buy">得到它</string>
-    <string name="draft_feature_buildings00_text">一些小型的居民建築物一些小型的居民建筑物，商業建筑物以及工業建筑物以使你的城市更加多元化。包含冬季特效。</string>
+    <string name="draft_feature_buildings00_text">一些小型的居民建築物一些小型的居民建築物，商業建築物以及工業建築物以使你的城市更加多元化。包含冬季特效。</string>
     <string name="dialog_redeempromo_title">你得到了一些鑽石</string>
     <string name="dialog_redeempromo_text">這些鑽石似乎是屬於你的。</string>
     <string name="dialog_present_cmdad">雙倍獎勵</string>
@@ -1151,9 +1151,9 @@
     <string name="draft_feature_letters00_title">字母裝飾</string>
     <string name="draft_feature_letters00_text">一些可以用來裝飾的字母。</string>
 
-    <string name="tool_eye_dropper">點擊一個建筑物</string>
+    <string name="tool_eye_dropper">點擊一個建築物</string>
     <string name="settings_language">語言</string>
-    <string name="settings_language_hint">改變語言設置后需要重啟游戲才能生效。</string>
+    <string name="settings_language_hint">改變語言設置后需要重啟遊戲才能生效。</string>
     <string name="settings_language_default">默認 (%s)</string>
 
     <string name="settings_showroadlength">顯示道路長度</string>
@@ -1215,8 +1215,8 @@
     <string name="ci_airport_title">機場</string>
     <string name="draft_wire01_title">高壓電線</string>
     <string name="draft_wire01_text">用來解決大量電力。用於區域能源運輸。</string>
-    <string name="draft_transformator00_title">變電站</string>
-    <string name="draft_transformator00_text">A transformer is needed to transform between high and normal voltage. Build it near a transmission line.</string>
+    <string name="draft_transformator00_title">變電所</string>
+    <string name="draft_transformator00_text">需要一個變壓器在高電壓和正常電壓之間轉換。將其建在輸電線附近。</string>
 
     <string name="settings_showtouchpoints">顯示觸點</string>
     <string name="shop_promotion_limited">限時活動</string>
@@ -1230,22 +1230,22 @@
     <string name="airport_airplanes">飛機</string>
     <string name="airport_virtual_lane">尚未分配</string>
     <string name="airport_lane_no_airplane">尚無飛機</string>
-    <string name="topic_lightside">來到光明的一側吧，我們有---冰激凌！</string>
+    <string name="topic_lightside">來到光明的一側吧，我們有---冰淇淋！</string>
     <string name="topic_handmade">每個像素都是辛辛苦苦的點上去的。</string>
     <string name="topic_lunch">午餐意味着關門時間</string>
     <string name="topic_watching">Lobby在看着你</string>
     <string name="topic_code">現在有5% 更多的代碼!</string>
     <string name="topic_banana">香蕉</string>
-    <string name="topic_finish">讓我們完,成,成這,这这,个,个个,个句,句,句句,,,（卒）</string>
+    <string name="topic_finish">讓我們完,成,成這,這這,個,個個,個句,句,句句,,,（卒）</string>
     <string name="topic_threed">"假 · 3D"</string>
     <string name="topic_work">“可能”包含辛勤工作的痕跡</string>
     <string name="topic_funfun">現在也可以帶來各種樂趣</string>
 
     <string name="settings_lesscars">交通流量</string>
-    <string name="settings_uploadgameplay">上傳游戲情節（你的Id: %s）</string>
-    <string name="settings_uploadgameplaymobile">允許游戲情節上傳使用移動數據（會消耗很多流量！）</string>
+    <string name="settings_uploadgameplay">上傳遊戲情節（你的Id: %s）</string>
+    <string name="settings_uploadgameplaymobile">允許遊戲情節上傳使用移動數據（會消耗很多流量！）</string>
     <string name="createcity_sizebigbigextra">巨大</string>
-    <string name="settings_uploadgameplay_quality">游戲情節上傳質量</string>
+    <string name="settings_uploadgameplay_quality">遊戲情節上傳質量</string>
     <string name="settings_uploadgameplay_qlow">低</string>
     <string name="settings_uploadgameplay_qmedium">中</string>
     <string name="settings_uploadgameplay_qhigh">高</string>
@@ -1265,7 +1265,7 @@
     <string name="draftselector_airplane_passenger">乘客: %1$,d</string>
     <string name="draft_ap_deco00_title">機場裝飾</string>
     <string name="draft_ap_deco00_text">用這些裝飾讓你的機場看起來更加真實。</string>
-    <string name="airport_needtower_title">然而并沒有塔台</string>
+    <string name="airport_needtower_title">然而並沒有塔台</string>
     <string name="airport_needtower_text">你需要建一個塔台來監控你的機場。</string>
     <string name="airport_needworkingtower_title">塔台未工作</string>
     <string name="airport_needworkingtower_text">你要確定你的塔台處於工作狀態</string>
@@ -1309,10 +1309,10 @@
     <string name="pluginerror_cmdchecksyntax">在線檢查句法</string>
 
     <string name="fb_login_title">連接臉書</string>
-    <string name="fb_login_text">請登錄以同步你的賬號信息。</string>
+    <string name="fb_login_text">請登入以同步你的帳號。</string>
     <string name="fb_login_cancel">取消</string>
-    <string name="toast_seed_copy">種子復制成功</string>
-    <string name="toast_recordingid_copy">錄制ID復制成功</string>
+    <string name="toast_seed_copy">種子複製成功</string>
+    <string name="toast_recordingid_copy">錄製ID複製成功</string>
     <string name="draft_ap_road00_title">機場運輸道路</string>
     <string name="draft_ap_road00_text">使用這條道路用來連接登機口和滑行道。</string>
     <string name="requirement_upgrade">需要升級%1$s</string>
@@ -1335,9 +1335,9 @@
     <string name="draft_deco_chr_tree00_title">聖誕樹</string>
     <string name="draft_deco_chr_tree00_text">聖誕樹將使你的居民的心充滿歡樂和榮耀。你看到什么禮物了嗎?</string>
     <string name="draft_jardinehouse00_title">怡和大廈</string>
-    <string name="draft_jardinehouse00_text">怡和大廈是位於香港的辦公大樓。它有52層,高度为179米,在1972年建成。</string>
+    <string name="draft_jardinehouse00_text">怡和大廈是位於香港的辦公大樓。它有52層,高度为179公尺,在1972年建成。</string>
     <string name="draft_bankofchina00_title">中國銀行大廈</string>
-    <string name="draft_bankofchina00_text">香港中國銀行大廈是中國銀行香港分行的總部。它有70層樓，高367米，于1990年完工</string>
+    <string name="draft_bankofchina00_text">香港中國銀行大廈是中國銀行香港分行的總部。它有70層樓，高367公尺，于1990年完工</string>
     <string name="settings_road_zone_width">自動筑路網格寬</string>
     <string name="settings_road_zone_height">自動筑路網格長</string>
     <string name="draft_feature_christmas_pack00_title">聖誕節特惠</string>
@@ -1348,7 +1348,7 @@
     <string name="draft_deco_chr_snowman00_title">雪人</string>
     <string name="draft_deco_chr_snowman00_text">兒童在冬天喜歡堆雪人</string>
     <string name="draft_internationalcommercecentre00_title">香港國際商務中心</string>
-    <string name="draft_internationalcommercecentre00_text">香港的國際商務中心是一座108層的商業摩天大樓。它是香港最高的建筑，高度為484米。它于2010年完工。</string>
+    <string name="draft_internationalcommercecentre00_text">香港的國際商務中心是一座108層的商業摩天大樓。它是香港最高的建築，高度為484公尺。它于2010年完工。</string>
     <string name="settings_autosave_interval">自動保存間隔</string>
     <string name="settings_autosave_interval_off">關閉</string>
     <string name="settings_autosave_interval_minutes">%1$d分鐘</string>
@@ -1406,13 +1406,13 @@
     <string name="settings_download_static_files">靜態文件下載</string>
     <string name="pluginerror_visitforum">去論壇報告</string>
     <string name="dialog_gameplay_title">在Theo直播直播Theotown</string>
-    <string name="dialog_gameplay_text">通過啟用游戲內容上傳，你允許我們將你的游戲畫面（且不包括任何其他界面，如文本框、懸浮窗等）上傳到我們的服務器并允許他人在官網觀看。同時間上傳的也會有一些調試用數據，用來改善游戲體驗。我們不會上傳您的任何個人信息。更多信息請參閱免責聲明。</string>
+    <string name="dialog_gameplay_text">通過啟用遊戲內容上傳，你允許我們將你的遊戲畫面（且不包括任何其他界面，如文本框、懸浮窗等）上傳到我們的服務器並允許他人在官網觀看。同時間上傳的也會有一些調試用數據，用來改善遊戲體驗。我們不會上傳您的任何個人信息。更多信息請參閱免責聲明。</string>
     <string name="control_enable">允許</string>
     <string name="dialog_gameplay_disclaimer">查看免責聲明</string>
     <string name="busgame_newbus">購買%d號車</string>
     <string name="busgame_route">規划線路</string>
     <string name="busgame_speed">速度</string>
-    <string name="busgame_speed_unit">米/秒</string>
+    <string name="busgame_speed_unit">公尺/秒</string>
     <string name="busgame_capacity">承載能力</string>
     <string name="busgame_capacity_unit">人次</string>
     <string name="busgame_income">收入</string>
@@ -1429,9 +1429,9 @@
     <string name="minigame_price">價格</string>
     <string name="minigame_time">時間</string>
     <string name="busgame_unlockimmediately_title">立即解鎖</string>
-    <string name="busgame_unlockimmediately_text">你就要現在解鎖這輛公交車嗎？</string>
+    <string name="busgame_unlockimmediately_text">你就要現在解鎖這輛公車嗎？</string>
     <string name="dialog_dbuilding_title">在這里建造</string>
-    <string name="dialog_dbuilding_text">你確定要在此修建此建筑嗎？我們將立即為您完工。請三思而行，需要鑽石。</string>
+    <string name="dialog_dbuilding_text">你確定要在此修建此建築嗎？我們將立即為您完工。請三思而行，需要鑽石。</string>
     <string name="dialog_performance_title">表現</string>
     <string name="draft_brandenburgertor00_title">勃蘭堡門</string>
     <string name="draft_brandenburgertor00_text">勃蘭堡門是德國的一個地標，建於18世紀。它位於柏林</string>
@@ -1447,21 +1447,21 @@
     <string name="game_remaining_shortbuildtime">加速建造剩余%s</string>
     <string name="shop_open_features">消費你的鑽石</string>
     <string name="draft_feature_shortbuildingtime00_title">更快的建造時間</string>
-    <string name="draft_feature_shortbuildingtime00_text">所有的建筑物所需要的建造時間將會大幅度縮減</string>
+    <string name="draft_feature_shortbuildingtime00_text">所有的建築物所需要的建造時間將會大幅度縮減</string>
     <string name="dialog_shortbuildtime_title">加速建造時間</string>
     <string name="dialog_shortbuildtime_text">觀看一段簡短的廣告，以加速建造時間%s。</string>
 
     <string name="settings_saveonappswitch">切換應用時保存</string>
     <string name="settings_saveforscreenshot">截圖時保存</string>
     <string name="draft_eiffeltower00_title">埃菲爾鐵塔</string>
-    <string name="draft_eiffeltower00_text">巴黎的埃菲爾鐵塔是法國最著名的地標。這座塔高324米，於1889年完工。</string>
+    <string name="draft_eiffeltower00_text">巴黎的埃菲爾鐵塔是法國最著名的地標。這座塔高324公尺，於1889年完工。</string>
     <string name="dialog_wb_text02">在你不在的時候，%1$s賺取了這些財產，看個廣告或者支付鑽石拿走：\n%2$s</string>
     <string name="dialog_wb_cmdtake">看廣告拿走</string>
     <string name="dialog_wb_cmdforfeit">不管它了</string>
     <string name="dialog_diamondtool_title">完成建造</string>
     <string name="dialog_diamondtool_text">你需要一些鑽石來修建這些。你要支付鑽石嗎？</string>
     <string name="draft_feature_valentinesday00_title">情人節快樂</string>
-    <string name="draft_feature_valentinesday00_text">永久解鎖這些建筑</string>
+    <string name="draft_feature_valentinesday00_text">永久解鎖這些建築</string>
     <string name="tool_removetunnel_title">移除地下隧道</string>
     <string name="tool_removetunnel_text">顧名思義。</string>
 
@@ -1493,7 +1493,7 @@
     <string name="draft_draft_hedu_title">市民對教育的滿意度</string>
     <string name="draft_draft_hedu_text">市民針對教育設施可覆蓋的范圍的滿意度</string>
     <string name="draft_draft_hlvl_title">市民對階級的滿意度</string>
-    <string name="draft_draft_hlvl_text">市民針對鄰近的建筑物的滿意度</string>
+    <string name="draft_draft_hlvl_text">市民針對鄰近的建築物的滿意度</string>
     <string name="draft_draft_htx_title">市民對稅務的滿意度</string>
     <string name="draft_draft_htx_text">市民針對繳稅率的滿意度</string>
     <string name="draft_draft_htr_title">市民對公交服務的滿意度</string>
@@ -1517,7 +1517,7 @@
     <string name="draft_draft_hgen_title">總體幸福度</string>
     <string name="draft_draft_hgen_text">市民針對自己是否感到辛福</string>
     <string name="influence_passenger_bus_title">公交系統</string>
-    <string name="influence_passenger_bus_text">如果市民使用公交系統有助於減少交通流量</string>
+    <string name="influence_passenger_bus_text">如果市民使用公車系統有助於減少交通流量</string>
     <string name="influence_passenger_train_title">軌道交通</string>
     <string name="influence_passenger_train_text">如果市民使用軌道交通有助於減少交通流量</string>
     <string name="influence_residential_title">住宅區</string>
@@ -1527,21 +1527,21 @@
     <string name="influence_industrial_title">工業區</string>
     <string name="influence_industrial_text">市民們最不想要住在這里</string>
     <string name="influence_level_low_title">低級</string>
-    <string name="influence_level_low_text">這個等級的建筑物是最窮的級別</string>
+    <string name="influence_level_low_text">這個等級的建築物是最窮的級別</string>
     <string name="influence_level_middle_title">中級</string>
-    <string name="influence_level_middle_text">這個等級的建筑物比較富裕</string>
+    <string name="influence_level_middle_text">這個等級的建築物比較富裕</string>
     <string name="influence_level_high_title">高級</string>
-    <string name="influence_level_high_text">這個等級的建筑物最富裕</string>
+    <string name="influence_level_high_text">這個等級的建築物最富裕</string>
     <string name="influence_density_title">密度</string>
-    <string name="influence_density_text">高樓層的建筑物密度比較高</string>
+    <string name="influence_density_text">高樓層的建築物密度比較高</string>
     <string name="influence_nature_title">自然</string>
     <string name="influence_nature_text">公園和森林對自然有着好的影響</string>
     <string name="influence_waste_disposal_title">垃圾處理</string>
     <string name="influence_waste_disposal_text">垃圾被處理掉，市民才會快樂。</string>
-    <string name="draft_bus_road00_title">公交專用道</string>
-    <string name="draft_bus_road00_text">一條只有公共汽車才能開的簡單道路。</string>
-    <string name="draft_bus_oneway_road00_title">公交單向路</string>
-    <string name="draft_bus_oneway_road00_text">只有公交才能進入的單行路。</string>
+    <string name="draft_bus_road00_title">公車專用道</string>
+    <string name="draft_bus_road00_text">一條只有公車才能開的簡單道路。</string>
+    <string name="draft_bus_oneway_road00_title">公車單向路</string>
+    <string name="draft_bus_oneway_road00_text">只有公車才能進入的單行路。</string>
     <string name="task_build_res">建造%s個住宅區。</string>
     <string name="task_build_com">建造%s個商業區。</string>
     <string name="task_build_ind">建造%s個工業區。</string>
@@ -1557,53 +1557,53 @@
     <string name="dialog_adreward_title">有獎看廣告</string>
     <string name="dialog_adreward_text">想不想看廣告拿點鑽石？</string>
     <string name="dialog_adreward_cmdwatch">我現在就要</string>
-    <string name="draftselector_titlelandmark">地標建筑</string>
+    <string name="draftselector_titlelandmark">地標建築</string>
     <string name="draft_bigben00_title">大笨鐘</string>
-    <string name="draft_bigben00_text">大本鐘是倫惇的一座鐘塔，高96米，建於1859年。</string>
+    <string name="draft_bigben00_text">大本鐘是倫惇的一座鐘塔，高96公尺，建於1859年。</string>
     <string name="draft_angelofindependence00_title">獨立天使</string>
     <string name="draft_angelofindependence00_text">獨立天使是墨西哥城的一座紀念碑，建於1910年，以紀念墨西哥獨立戰爭。</string>
     <string name="draft_statueofliberty00_title">自由女神像</string>
-    <string name="draft_statueofliberty00_text">自由女神像是法國人送給美國人的禮物。它於1886年落成，高93米。</string>
+    <string name="draft_statueofliberty00_text">自由女神像是法國人送給美國人的禮物。它於1886年落成，高93公尺。</string>
     <string name="draft_decorustywatertower00_title">生鏽的水塔</string>
     <string name="draft_decorustywatertower00_text">一個老舊又鏽蝕的水塔。真的什么都不干。</string>
     <string name="draft_underground_wire00_title">地下電纜</string>
     <string name="draft_underground_wire00_text">像普通的電線一樣工作，但是被放置在地下，所以沒有人看到它們。</string>
-    <string name="draft_feature_freedombuildings00_title">地標建筑 I</string>
-    <string name="draft_feature_freedombuildings00_text">包括以下建筑：</string>
+    <string name="draft_feature_freedombuildings00_title">地標建築 I</string>
+    <string name="draft_feature_freedombuildings00_text">包括以下建築：</string>
 
     <string name="tool_removeuwire_title">移除地下電纜</string>
     <string name="tool_removeuwire_text">本工具可以拆除地下電纜。</string>
 
     <string name="draft_aircraft_boneyard00_title">飛機墳墓</string>
-    <string name="draft_aircraft_boneyard00_text">一個退休飛機的地方。它很臟，但能帶來一些收入。</string>
+    <string name="draft_aircraft_boneyard00_text">一個退休飛機的地方。它很髒，但能帶來一些收入。</string>
     <string name="notify_tutorial_reminder_title">是時候開始了</string>
     <string name="notify_tutorial_reminder_text">市長，你忘了你那建設城市的任務嗎？</string>
     <string name="dialog_insufficientspace_title">存儲空間有點不夠用</string>
     <string name="dialog_insufficientspace_text">你的設備上沒有多少剩余空間了，只剩%,dMB。因為空間不足，你的城市可能無法成功保存。</string>
     <string name="dialog_insufficientspace_cmdproceed">繼續，后果自負</string>
     <string name="draft_sydneyoperahouse00_title">悉尼歌劇院</string>
-    <string name="draft_sydneyoperahouse00_text">悉尼歌劇院是位於澳大利亞悉尼的多場館表演藝朮中心。它於1973年建成，高度65米。</string>
+    <string name="draft_sydneyoperahouse00_text">悉尼歌劇院是位於澳大利亞悉尼的多場館表演藝朮中心。它於1973年建成，高度65公尺。</string>
     <string name="draft_onerafflesplace00_title">萊佛士廣場</string>
-    <string name="draft_onerafflesplace00_text">萊佛士廣場是新加坡的一座摩天大樓，建於1986年，高度為280米。</string>
+    <string name="draft_onerafflesplace00_text">萊佛士廣場是新加坡的一座摩天大樓，建於1986年，高度為280公尺。</string>
     <string name="draft_willistower00_title">威利斯大廈</string>
-    <string name="draft_willistower00_text">威利斯大廈（又稱西爾斯大廈）是位於美國芝加哥的一座摩天大樓。這座塔建於1973年，高442米。</string>
-    <string name="draft_feature_landmarks01_title">地標建筑 II</string>
-    <string name="draft_feature_landmarks01_text">包括以下建筑：</string>
+    <string name="draft_willistower00_text">威利斯大廈（又稱西爾斯大廈）是位於美國芝加哥的一座摩天大樓。這座塔建於1973年，高442公尺。</string>
+    <string name="draft_feature_landmarks01_title">地標建築 II</string>
+    <string name="draft_feature_landmarks01_text">包括以下建築：</string>
 
     <string name="draft_cat_supply00_title">供給</string>
     <string name="draft_cat_road00_title">道路</string>
-    <string name="draft_cat_bus00_title">公交</string>
+    <string name="draft_cat_bus00_title">公車</string>
     <string name="draft_cat_train00_title">軌道交通</string>
-    <string name="draft_cat_recent00_title">曆史記錄</string>
+    <string name="draft_cat_recent00_title">歷史記錄</string>
     <string name="draft_cat_service00_title">服務</string>
     <string name="draft_tool_eyedropper00_title">滴管工具</string>
-    <string name="draft_tool_eyedropper00_text">想要再建一條特定的道路或建筑？使用這個工具并點擊它。不受所有結搆的支持。</string>
+    <string name="draft_tool_eyedropper00_text">想要再建一條特定的道路或建築？使用這個工具並點擊它。不受所有結搆的支持。</string>
     <string name="draft_cat_level00_title">等級 ₮</string>
     <string name="draft_cat_level01_title">等級 ₮₮</string>
     <string name="draft_cat_level02_title">等級 ₮₮₮</string>
-    <string name="draft_tool_movebuilding00_title">移動建筑</string>
-    <string name="draft_tool_movebuilding00_text">選擇一個建筑，以便把它搬到一個新的地方。并不是所有的建筑都能被移動。</string>
-    <string name="tool_movebuilding_cmd">選擇一個建筑</string>
+    <string name="draft_tool_movebuilding00_title">移動建築</string>
+    <string name="draft_tool_movebuilding00_text">選擇一個建築，以便把它搬到一個新的地方。並不是所有的建築都能被移動。</string>
+    <string name="tool_movebuilding_cmd">選擇一個建築</string>
     <string name="draft_cat_root00_title">全部</string>
 
     <string name="draft_cat_residential00_title">住宅</string>
@@ -1626,26 +1626,26 @@
     <string name="dialog_gallerydelete_text">確定要刪除嗎？此操作無法撤回！</string>
     <string name="dialog_gallerydelete_cmd">刪除</string>
     <string name="dialog_gallerypolicy_title">稍等一下</string>
-    <string name="dialog_gallerypolicy_text">很高興你願意為我們的畫廊做貢獻。然而,在我們開始之前,你必须同意我们的协议,允许我们为你上传截图。\n
+    <string name="dialog_gallerypolicy_text">很高興你願意為我們的畫廊做貢獻。然而,在我們開始之前,你必须同意我們的協議,允许我們为你上传截圖。\n
 
 如果你同意我們的截圖上傳政策,那就同意。\n記住，看看協議是個好習慣。</string>
     <string name="dialog_gallerypolicy_cmdpolicy">查看協議</string>
     <string name="dialog_gallerypolicy_cmdok">同意</string>
-    <string name="dialog_gallerypolicy_cmdcancel">我并不同意</string>
+    <string name="dialog_gallerypolicy_cmdcancel">我並不同意</string>
     <string name="settings_pushnotifications">推送通知</string>
     <string name="draft_leaningtowerofpisa00_title">比薩斜塔</string>
-    <string name="draft_leaningtowerofpisa00_text">比薩斜塔是意大利比薩市的一座鐘塔，建於1372年，高度達56米。唯一的问题是，它是斜的。</string>
+    <string name="draft_leaningtowerofpisa00_text">比薩斜塔是意大利比薩市的一座鐘塔，建於1372年，高度達56公尺。唯一的问题是，它是斜的。</string>
     <string name="draft_burjalarab00_title">迪拜塔</string>
-    <string name="draft_burjalarab00_text">迪拜塔是一家位於阿拉伯聯合酋長國迪拜的豪華酒店。該工程於1999年完工，高度為321米</string>
+    <string name="draft_burjalarab00_text">迪拜塔是一家位於阿拉伯聯合酋長國迪拜的豪華酒店。該工程於1999年完工，高度為321公尺</string>
     <string name="draft_hearsttower00_title">赫斯赫塔</string>
-    <string name="draft_hearsttower00_text">赫斯赫塔是紐約市的一座辦公大樓，建於2006年。它的高度是182米。</string>
+    <string name="draft_hearsttower00_text">赫斯赫塔是紐約市的一座辦公大樓，建於2006年。它的高度是182公尺。</string>
     <string name="draft_feature_landmarks02_title">地標 III</string>
 
-    <string name="draft_recyclingyard00_title">回購中心</string>
+    <string name="draft_recyclingyard00_title">回收中心</string>
     <string name="draft_recyclingyard00_text">如果可以在回收中心回收垃圾，為什么要焚燒垃圾或者把垃圾帶進填埋場呢？</string>
-    <string name="draft_notify_pickle_spawned00_text">一只大黃瓜出現在%s。市長，你要對它做什么？</string>
+    <string name="draft_notify_pickle_spawned00_text">一隻大黃瓜出現在%s。市長，你要對它做什么？</string>
     <string name="draft_rugbyfield00_title">橄欖球場</string>
-    <string name="draft_rugbyfield00_text">給橄欖球粉絲准備的橄欖球場</string>
+    <string name="draft_rugbyfield00_text">給橄欖球粉絲準備的橄欖球場</string>
     <string name="menu_facebook">連接臉書</string>
     <string name="facebook_privacy">隱私</string>
 
@@ -1655,34 +1655,34 @@
     <string name="draft_notify_easteregg_spawned00_text">某個地方有個復活節彩蛋。你能找到嗎？</string>
     <string name="draft_notify_easteregg_found00_text">恭喜你，你找到了復活節彩蛋！</string>
 
-    <string name="dialog_removediamondbuildings_title">移除用鑽石購買的建筑物</string>
-    <string name="dialog_removediamondbuildings_text">你選擇要移除了價值 %d 鑽石的建筑物。你確定要不顧代價移除它們嗎？ 建造菜單里有移動工具，可以用一用試試。</string>
+    <string name="dialog_removediamondbuildings_title">移除用鑽石購買的建築物</string>
+    <string name="dialog_removediamondbuildings_text">你選擇要移除了價值 %d 鑽石的建築物。你確定要不顧代價移除它們嗎？ 建造菜單里有移動工具，可以用一用試試。</string>
     <string name="settings_renderpollution">降低污染的程度</string>
 
-    <string name="settings_cloudshadow">顯示云影</string>
+    <string name="settings_cloudshadow">顯示雲影</string>
 
     <string name="draft_orientalpearltower00_title">上海東方明珠電視塔</string>
-    <string name="draft_orientalpearltower00_text">上海東方明珠電視塔是一座電視塔，并且在1994年竣工，總高度為470米。</string>
+    <string name="draft_orientalpearltower00_text">上海東方明珠電視塔是一座電視塔，並且在1994年竣工，總高度為470公尺。</string>
     <string name="draft_swfc_tower00_title">上海世界金融中心</string>
-    <string name="draft_swfc_tower00_text">上海世界金融中心是一棟為於上海的摩天大樓，并且在2008年竣工，總高度為494米。</string>
+    <string name="draft_swfc_tower00_text">上海世界金融中心是一棟為於上海的摩天大樓，並且在2008年竣工，總高度為494公尺。</string>
     <string name="draft_feature_landmarks03_title">地標IV</string>
-    <string name="draft_feature_landmarks03_text">上海的精美建筑物</string>
+    <string name="draft_feature_landmarks03_text">上海的精美建築物</string>
     <string name="draft_cat_asphalt00_title">瀝青</string>
     <string name="draft_asphalt00_title">灰色瀝青</string>
-    <string name="draft_asphalt00_text">不要用它替代自然！盡管如此，上面也可以種樹。</string>
+    <string name="draft_asphalt00_text">不要用它替代自然！儘管如此，上面也可以種樹。</string>
     <string name="draft_asphalt01_title">深色瀝青</string>
     <string name="draft_asphalt02_title">深藍色瀝青</string>
 
     <string name="draft_cat_management00_title">管理</string>
     <string name="draft_sakura00_title">櫻花寶塔</string>
-    <string name="draft_sakura00_text">一座由櫻花配搭的傳統式寶塔，是一個多么美好的地方</string>
+    <string name="draft_sakura00_text">一座由櫻花配搭的傳統式寶塔，是一個多麼美好的地方</string>
     <string name="draft_stbasilcathedral00_title">聖瓦西里主教座堂</string>
-    <string name="draft_stbasilcathedral00_text">聖瓦西里主教座堂是一座位於莫斯科，俄羅斯的教堂。它竣工於1561年，它的總高度為115米</string>
+    <string name="draft_stbasilcathedral00_text">聖瓦西里主教座堂是一座位於莫斯科，俄羅斯的教堂。它竣工於1561年，它的總高度為115公尺</string>
 
     <string name="draft_toji00_title">東寺（教王護國寺）</string>
-    <string name="draft_toji00_text">東寺是一座位於日本京都市的佛寺。它竣工於796年，它的總高度為55米</string>
+    <string name="draft_toji00_text">東寺是一座位於日本京都市的佛寺。它竣工於796年，它的總高度為55公尺</string>
     <string name="ca_wastedisposal_text2">垃圾運輸量: %1$,d/%2$,d 升/天</string>
-    <string name="notify_waste_needer00">這棟建筑物沒有受到垃圾處理服務</string>
+    <string name="notify_waste_needer00">這棟建築物沒有受到垃圾處理服務</string>
     <string name="notify_waste_producer00">這個填埋場的容量已滿，請點擊清理！</string>
     <string name="draft_landfill00_text">用來收集所有的垃圾的大量的空間。只能空置時才能移除。</string>
     <string name="waste_clear">在垃圾上 滑動屏幕 來清理它。</string>
@@ -1713,9 +1713,9 @@
     <string name="draft_flowers00_title">花朵</string>
     <string name="draft_flowers00_text">就是花朵。</string>
 
-    <string name="game_remaining_doubledincometime">雙倍收入剩余%s</string>
+    <string name="game_remaining_doubledincometime">雙倍收入剩餘%s</string>
     <string name="draft_taipei101_title">台北101</string>
-    <string name="draft_taipei101_text">台北台北金融中心是台灣超高層摩天大樓。它有510米的高度，直到2010年一直是世界上最高的建筑。它於2004年完工。</string>
+    <string name="draft_taipei101_text">台北台北金融中心是台灣超高層摩天大樓。它有510公尺的高度，直到2010年一直是世界上最高的建築。它於2004年完工。</string>
     <string name="draft_roaddeco_border00_title">導向柱</string>
     <string name="draft_roaddeco_border00_text">使車輛不至於偏離道路（盡管這不可能）</string>
     <string name="draft_roaddeco_border01_title">路邊石塊</string>
@@ -1723,7 +1723,7 @@
     <string name="draft_roaddeco_border02_title">防護欄</string>
     <string name="draft_roaddeco_border02_text">路邊的欄杆</string>
     <string name="draft_roaddeco_border03_title">隔聲牆</string>
-    <string name="draft_roaddeco_border03_text">什么噪聲？我什么都沒聽到！\n\n本裝飾似乎并沒有減弱噪聲的作用</string>
+    <string name="draft_roaddeco_border03_text">什么噪聲？我什么都沒聽到！\n\n本裝飾似乎並沒有減弱噪聲的作用</string>
     <string name="draft_roaddeco_border04_title">玻璃牆</string>
     <string name="draft_roaddeco_border04_text">你可以從中看見車輛</string>
     <string name="draft_roaddeco_border05_title">路燈</string>
@@ -1745,7 +1745,7 @@
     <string name="draft_jungletree00_text">在叢林里，茂密的叢林里，獅子今晚睡着了。</string>
 
     <string name="draft_igloo00_title">冰屋</string>
-    <string name="draft_igloo00_text">令人驚訝的是，在冰屋里并不是那么冷。</string>
+    <string name="draft_igloo00_text">令人驚訝的是，在冰屋里並不是那么冷。</string>
     <string name="features_more">更多的功能</string>
     <string name="features_diamonds">獲取鑽石</string>
 
@@ -1756,7 +1756,7 @@
     <string name="dialog_privacy_cmdlater">好的，同意</string>
     <string name="settings_drawzones">畫出區域</string>
     <string name="draft_metrostation00_title">地鐵總站</string>
-    <string name="draft_metrostation00_text">車庫兼登上地鐵的車站。</string>
+    <string name="draft_metrostation00_text">車庫兼乘坐地鐵的車站。</string>
     <string name="draft_metroline00_title">地鐵隧道</string>
     <string name="draft_metroline00_text">地鐵隧道。在地下，你一般看不到它。</string>
     <string name="feature_coming_soon">敬請期待</string>
@@ -1777,9 +1777,9 @@
     <string name="draft_circus00_title">馬戲團</string>
     <string name="draft_circus00_text">是時候來點馬戲了</string>
     <string name="draft_chrysler00_title">克萊斯勒大廈</string>
-    <string name="draft_chrysler00_text">你之前可能看過這座大樓。位於紐約的克萊斯勒大廈因其標志性外觀而聞名。建於1930年，建筑高319米。</string>
-    <string name="draft_greatpyramid00_text">吉薩金字塔建筑群是古代世界七大奇跡中最古老的，也是舉世聞名的。大金字塔是三座金字塔中最大的一座，高139米。</string>
-    <string name="draft_feature_landmarks04_text">來點宏大的建筑！</string>
+    <string name="draft_chrysler00_text">你之前可能看過這座大樓。位於紐約的克萊斯勒大廈因其標志性外觀而聞名。建於1930年，建築高319公尺。</string>
+    <string name="draft_greatpyramid00_text">吉薩金字塔建築群是古代世界七大奇跡中最古老的，也是舉世聞名的。大金字塔是三座金字塔中最大的一座，高139公尺。</string>
+    <string name="draft_feature_landmarks04_text">來點宏大的建築！</string>
 
     <string name="draft_roaddeco_barrier_open00_title">阻攔帶</string>
     <string name="draft_roaddeco_barrier_open00_text">點擊以開關。對制造擁堵很有用。</string>
@@ -1797,16 +1797,16 @@
     <string name="draft_roaddeco_construction00_text">等等，我們還在修路...\n微小的不便，換來巨大的好處。\n\n挖掘技术哪家强？中国山东找蓝翔！</string>
 
     <string name="infoline_freetunnels">剩余%d條隧道 </string>
-    <string name="buildinginfo_idletime">掛機時間: %s (游戲關閉時)</string>
-    <string name="dialog_wb_completed">恭喜！在你離開的時候， %d 棟建筑建成了。</string>
+    <string name="buildinginfo_idletime">掛機時間: %s (遊戲關閉時)</string>
+    <string name="dialog_wb_completed">恭喜！在你離開的時候， %d 棟建築建成了。</string>
     <string name="draft_roaddeco_barrier01_title">路障</string>
     <string name="draft_roaddeco_barrier01_text">可以用於堵路。此路不通！建議和挖掘機一起使用。</string>
     <string name="draft_roaddeco_construction01_title">瀝青山</string>
     <string name="draft_roaddeco_construction01_text">修路是一定要有瀝青的。好道路也是要好瀝青的。\n（當然你修土路別來找我）</string>
     <string name="notification00_sandbox_title">新鮮事：來自%1$s</string>
-    <string name="notification00_sandbox_text">市長您好：\n您可能已經聽說了您的城市被評選為幸福城市。這之中您做出了很大的貢獻。讓我們把城市發展的更加壯大吧！\n--市议会</string>
+    <string name="notification00_sandbox_text">市長您好：\n您可能已經聽說了您的城市被評選為幸福城市。這之中您做出了很大的貢獻。讓我們把城市發展的更加壯大吧！\n--市议會</string>
     <string name="notification01_title">新鮮事：來自%1$s</string>
-    <string name="notification01_text">市長您好：\n您已經很久沒來管理城市了，城市已經停止了發展，市民很焦急。請速速歸來。\n--市议会</string>
+    <string name="notification01_text">市長您好：\n您已經很久沒來管理城市了，城市已經停止了發展，市民很焦急。請速速歸來。\n--市议會</string>
 
     <string name="shop_adreward">免費鑽石</string>
     <string name="draft_smallmetrostation00_title">地鐵出入口</string>
@@ -1839,7 +1839,7 @@
     <string name="draft_discord_statue00_title">Discord 雕像</string>
     <string name="draft_discord_statue00_text">一個上面是 Discord 的雕像。</string>
     <string name="notify_discord_statue00_title">非常感謝！</string>
-    <string name="notify_discord_statue00_text">感謝Discord服務器上的3,000名会员。你想现在去看看吗？\nDiscord是专为游戏社区设计的专有免费软件VoIP应用程序和数字分发平台，专门用于聊天频道中用户之间的文本，图像，视频和音频通信。</string>
+    <string name="notify_discord_statue00_text">感謝Discord服務器上的3,000名會员。你想现在去看看吗？\nDiscord是专为游戏社区设计的专有免费软件VoIP应用程序和数字分发平台，专门用于聊天频道中用户之间的文本，圖像，视频和音频通信。</string>
     <string name="draftselector_titlebodydisposal">葬禮服務</string>
     <string name="draft_roaddeco_protester00_title">假 · 抗議者</string>
     <string name="draft_roaddeco_protester00_text">花錢雇佣假的抗議者</string>
@@ -1854,23 +1854,23 @@
     <string name="draft_snowtile00_title">永久雪層</string>
     <string name="draft_snowtile00_text">全球變暖怎么樣？</string>
     <string name="gamemode_free_title">自由模式</string>
-    <string name="gamemode_free_text">不想受有限的資金束縛？在這種游戲模式中，沒有錢的限制，也沒有人口要求。\n與原來的沙盒模式相近，但是會花費你75钻石。\n翻译者说：\n如果不想自掏腰包，你也可以去设置 其它 里开启实验性功能，使用沙盒模式。\n但鉴于开发者资金不怎么充裕，建议购买支持一下。</string>
+    <string name="gamemode_free_text">不想受有限的資金束縛？在這種遊戲模式中，沒有錢的限制，也沒有人口要求。\n與原來的沙盒模式相近，但是會花費你75钻石。\n翻译者说：\n如果不想自掏腰包，你也可以去设置 其它 里开启实验性功能，使用沙盒模式。\n但鉴于开发者资金不怎么充裕，建议购买支持一下。</string>
     <string name="dialog_free_title">自由模式</string>
     <string name="dialog_free_text">你選擇了自由模式。\n
 優點：沒有資金，沒有限制，可以控制需求\n
 缺點：挑戰太少</string>
     <string name="draft_medic03_title">現代化醫院</string>
     <string name="draft_medic03_text">一個現代化的醫院，可以在更小的空間內照顧更多的病人。</string>
-    <string name="draft_gol_dead_title">康威生命游戲</string>
-    <string name="draft_gol_dead_text">創造一個康威生命游戲區塊。點擊創建的方塊以切換其狀態。默認狀態是死亡。以下是介紹和規則。\n\n簡介：康威生命游戲（英語：Conway\'s Game of Life），又称康威生命棋，是英国数学家约翰·何顿·康威在1970年发明的细胞自动机。\n规则：每个细胞有两种状态-存活或死亡，每个细胞与以自身为中心的周围八格细胞产生互动。\n当前细胞为存活状态时，当周围的存活细胞低于2个时（不包含2个）， 该细胞变成死亡状态。\n当前细胞为存活状态时，当周围有2个或3个存活细胞时， 该细胞保持原样。\n当前细胞为存活状态时，当周围有3个以上的存活细胞时，该细胞变成死亡状态。\n当前细胞为死亡状态时，当周围有3个存活细胞时，该细胞变成存活状态。 \n以上文字来自于维基百科。</string>
+    <string name="draft_gol_dead_title">康威生命遊戲</string>
+    <string name="draft_gol_dead_text">創造一個康威生命遊戲區塊。點擊創建的方塊以切換其狀態。默認狀態是死亡。以下是介紹和規則。\n\n簡介：康威生命遊戲（英語：Conway\'s Game of Life），又稱康威生命棋，是英国数学家约翰·何顿·康威在1970年发明的细胞自动机。\n规则：每个细胞有两种状态-存活或死亡，每个细胞与以自身为中心的周围八格细胞产生互动。\n当前细胞为存活状态时，当周围的存活细胞低于2个时（不包含2个）， 该细胞变成死亡状态。\n当前细胞为存活状态时，当周围有2个或3个存活细胞时， 该细胞保持原样。\n当前细胞为存活状态时，当周围有3个以上的存活细胞时，该细胞变成死亡状态。\n当前细胞为死亡状态时，当周围有3个存活细胞时，该细胞变成存活状态。 \n以上文字来自于维基百科。</string>
     <!-- This one is not included for good reasons: Hackers could just change it -->
     <string name="draft_coittower00_title">科伊特塔</string>
-    <string name="draft_coittower00_text">科伊特塔位於Telegraph Hill的山坡上，高達60m，建成于1933年，有人说塔的形状就是为了赞颂为救火而牺牲的消防员的，而仿照消防软管的喷嘴形状而成。</string>
+    <string name="draft_coittower00_text">科伊特塔位於Telegraph Hill的山坡上，高達60m，建成於1933年，有人说塔的形狀就是为了讚頌为救火而犧牲的消防员的，而仿照消防软管的喷嘴形状而成。</string>
     <string name="draft_bankofamerica00_title">美國銀行中心</string>
-    <string name="draft_bankofamerica00_text">美國銀行中心, 是加利福尼亞州舊金山的52层779英尺 (237 米) 摩天大楼。</string>
+    <string name="draft_bankofamerica00_text">美國銀行中心, 是加利福尼亞州舊金山的52层779英尺 (237 公尺) 摩天大楼。</string>
     <string name="draft_transamerica00_title">泛美金字塔</string>
-    <string name="draft_transamerica00_text">泛美金字塔是舊金山的摩天大樓, 高260m，於1972年竣工, 是（众多）金融服务公司的所在地。</string>
-    <string name="draft_feature_landmarks05_text">獲得一些舊金山的地標建筑。</string>
+    <string name="draft_transamerica00_text">泛美金字塔是舊金山的摩天大樓, 高260m，於1972年竣工, 是（眾多）金融服务公司的所在地。</string>
+    <string name="draft_feature_landmarks05_text">獲得一些舊金山的地標建築。</string>
     <string name="dialog_cemeteryclear_title">立刻清除</string>
     <string name="dialog_cemeteryclear_text">我想我們可以再利用這里的一些空間。</string>
     <string name="cemetery_cmdclear">立刻清除</string>
@@ -1887,7 +1887,7 @@
     <string name="draft_feature_landmarks05_title">地標包6</string>
     <string name="draft_marker_hackedmarkermarker_title">水管概覽</string>
 
-    <string name="settings_dedicatedplugintexture">更大的插件材質空間（需要重啟游戲，不一定穩定，但是能裝更多的插件）</string>
+    <string name="settings_dedicatedplugintexture">更大的插件材質空間（需要重啟遊戲，不一定穩定，但是能裝更多的插件）</string>
     <string name="draft_haunted_house00_title">鬼屋</string>
     <string name="draft_haunted_house00_text">看起來很危險的別墅。可能有個傻瓜住在這里。</string>
     <string name="notify_illness">疫情爆發，我們必須立即釆取行動。馬上派遣醫療隊！！！</string>
@@ -1905,7 +1905,7 @@
     <string name="draft_sf_cityhall00_title">市政廳</string>
     <string name="draft_sf_cityhall00_text">一個市政廳。\n靈感來自於舊金山的市政廳。</string>
     <string name="draft_sf_fineartspalace00_title">美朮宮</string>
-    <string name="draft_sf_fineartspalace00_text">加利福尼亞州舊金山藝朮宮是一座紀念性建筑，最初是為1915年的巴拿馬 - 太平洋博覽會而建造的。</string>
+    <string name="draft_sf_fineartspalace00_text">加利福尼亞州舊金山藝朮宮是一座紀念性建築，最初是為1915年的巴拿馬 - 太平洋博覽會而建造的。</string>
     <string name="shader_invert">反色</string>
 
     <string name="draft_present_notification00_text">聖誕老人送了你個禮...轟！！！</string>
@@ -1917,9 +1917,9 @@
     <string name="store_downloaded">已下載</string>
     <string name="dialog_storedownlaod_title">下載提示</string>
     <string name="dialog_storedownload_text">確認下載 %s ？</string>
-    <string name="dialog_storerestart_title">重啟游戲</string>
-    <string name="dialog_storerestart_text">您對插件的更改需要重啟游戲才能生效。\n是否立刻重啟？\n您可以选择等一会在重启。</string>
-    <string name="dialog_storerestart_cmdrestart">重啟游戲</string>
+    <string name="dialog_storerestart_title">重啟遊戲</string>
+    <string name="dialog_storerestart_text">您對插件的更改需要重啟遊戲才能生效。\n是否立刻重啟？\n您可以选择等一會在重启。</string>
+    <string name="dialog_storerestart_cmdrestart">重啟遊戲</string>
     <string name="store_status_notacquired">未擁有</string>
     <string name="store_status_downloading">下載中</string>
     <string name="store_status_downloaderror">錯誤：</string>
@@ -1929,7 +1929,7 @@
     <string name="store_status_notrunning">已禁用</string>
     <string name="store_status_newversioninstalled">已更新</string>
     <string name="store_status_availupdate">新版本可用</string>
-    <string name="store_status_restartrequired">需要重啟游戲生效</string>
+    <string name="store_status_restartrequired">需要重啟遊戲生效</string>
     <string name="store_active">啟用</string>
     <string name="store_notactive">禁用</string>
     <string name="store_fetchfailed">網絡錯誤</string>
@@ -2004,7 +2004,7 @@
     <string name="draft_trainstation01_title">城際列車站台</string>
     <string name="draft_trainstation01_text">該站台專供長途旅行。</string>
     <string name="draft_train_freight_station00_title">貨運倉庫1</string>
-    <string name="draft_train_freight_station00_text">Train station for freight traffic.</string>
+    <string name="draft_train_freight_station00_text">貨運火車站。</string>
     <string name="draft_train_freight_station01_title">貨運倉庫2</string>
     <string name="draft_train_freight_station02_title">貨運倉庫3</string>
     <string name="draft_train_freight_station03_title">貨運倉庫4</string>
@@ -2068,7 +2068,7 @@
     <string name="gamemode_sandbox_title">沙盒模式</string>
     <string name="gamemode_sandbox_text">如果使用這個模式的話，將不再有金錢上的需求。不過，市民的需求你還是要滿足的。</string>
     <string name="dialog_ubermode_title">烏托邦模式</string>
-    <string name="dialog_ubermode_text">開啟這個特殊的模式來免除所有的麻煩！\n-這里將不再有火災、垃圾、疾病、犯罪、死亡，居民們也會有100%的教育水平并且会对您的政策100%的满意的！\n译者注：此模式原名叫 Uber Mode，暂时先这么翻译吧。</string>
+    <string name="dialog_ubermode_text">開啟這個特殊的模式來免除所有的麻煩！\n-這里將不再有火災、垃圾、疾病、犯罪、死亡，居民們也會有100%的教育水平並且會对您的政策100%的满意的！\n译者注：此模式原名叫 Uber Mode，暂时先这么翻译吧。</string>
     <string name="topic_pluginsawesome">插件真的很不錯——不過你用不到的還是禁用一下吧。</string>
     <string name="topic_platforms">現在 TheoTown 在安卓、iOS以及Steam（PC端）都可用啦！</string>
     <string name="topic_pluginspace">插件可用的空間是有限的，請多多留意。</string>
@@ -2077,46 +2077,46 @@
     <string name="topic_f11">按 F11 來切換到全屏模式</string>
     <string name="draft_permanent_snow00_title">雪</string>
     <string name="draft_permanent_snow00_text">在這里永遠是冬天。</string>
-    <string name="settings_hidelabels">隱藏標簽</string>
+    <string name="settings_hidelabels">隱藏標籤</string>
     <string name="settings_sound_ambient">環境音</string>
     <string name="settings_vsync">垂直同步</string>
 
-    <string name="shop_invitefriends">Earn %d diamonds per invited friend</string>
-    <string name="shop_invitetitle">Invite a friend</string>
-    <string name="shop_invitationtext">Hey, check out this game that I found recently:\n%s</string>
-    <string name="gamemenu_gameid">Game id: %s</string>
-    <string name="gamemenu_gameidcopied">Copied game id into clipboard</string>
-    <string name="draft_cat_intersections00_title">Interchanges</string>
-    <string name="draft_intersection00_title">Overpass</string>
-    <string name="draft_intersection00_text">A country road that connects to a flat highway via a bridge.</string>
-    <string name="draft_intersection01_title">Underpass</string>
-    <string name="draft_intersection01_text">A country road that connects to an elevated highway.</string>
-    <string name="draft_intersection02_title">Cross road intersection</string>
-    <string name="draft_intersection02_text">Two highways that intersect with each other. One of the highways is elevated.</string>
-    <string name="draft_intersection_complex00_title">Clover interchange</string>
-    <string name="draft_intersection_complex00_text">Two flat highways that intersect each other using a giant complex structure.</string>
-    <string name="tool_removefence_title">Remove fence</string>
-    <string name="tool_removefence_text">This tool can be used to remove fence only.</string>
-    <string name="draft_fence_real00_title">Wooden Fence</string>
-    <string name="draft_fence_real00_text">A simple wooden fence.</string>
-    <string name="draft_fence_real01_title">Hedge</string>
-    <string name="draft_fence_real01_text">A tall, green hedge.</string>
-    <string name="draft_fence_real02_title">Wooden Fence</string>
-    <string name="draft_fence_real02_text">Few planks tacked together.</string>
-    <string name="draft_fence_real03_title">Modern Fence</string>
-    <string name="draft_fence_real03_text">Planks stacked between concrete poles.</string>
-    <string name="draft_fence_real04_title">White Fence</string>
-    <string name="draft_fence_real04_text">Planked fence painted white.</string>
-    <string name="draft_fence_real05_title">Stone Wall</string>
-    <string name="draft_fence_real05_text">A low, sturdy stone wall.</string>
-    <string name="draft_fence_real06_title">Iron Fence</string>
-    <string name="draft_fence_real06_text">Heavy iron bars between brick walls.</string>
-    <string name="draft_cat_fence00_title">Fence</string>
-    <string name="ci_neighbor_notrading">There are no neighboring cities to trade with.</string>
+    <string name="shop_invitefriends">每邀請一個朋友，獲取 %d 個鑽石</string>
+    <string name="shop_invitetitle">I邀請朋友</string>
+    <string name="shop_invitationtext">嘿, 看看我最近發現的遊戲:\n%s</string>
+    <string name="gamemenu_gameid">遊戲ID: %s</string>
+    <string name="gamemenu_gameidcopied">遊戲ID複製成功</string>
+    <string name="draft_cat_intersections00_title">交流道</string>
+    <string name="draft_intersection00_title">高架道路</string>
+    <string name="draft_intersection00_text">通過橋樑連接到高速公路的鄉間公路。</string>
+    <string name="draft_intersection01_title">地下道</string>
+    <string name="draft_intersection01_text">連接高架公路的鄉間公路。</string>
+    <string name="draft_intersection02_title">路口交流道</string>
+    <string name="draft_intersection02_text">兩條相交的高速公路。 其中一條高速公路是高架。</string>
+    <string name="draft_intersection_complex00_title">苜蓿葉型交流道</string>
+    <string name="draft_intersection_complex00_text">兩條平面高速公路，使用巨大的複雜結構相交。</string>
+    <string name="tool_removefence_title">移除柵欄</string>
+    <string name="tool_removefence_text">該工具只能用於移除圍欄。</string>
+    <string name="draft_fence_real00_title">木柵欄</string>
+    <string name="draft_fence_real00_text">一個簡單的木柵欄。</string>
+    <string name="draft_fence_real01_title">樹籬</string>
+    <string name="draft_fence_real01_text">高大的綠色樹籬。</string>
+    <string name="draft_fence_real02_title">木柵欄</string>
+    <string name="draft_fence_real02_text">幾塊木板堆疊起來。</string>
+    <string name="draft_fence_real03_title">現代柵欄</string>
+    <string name="draft_fence_real03_text">木板堆疊在混凝土桿之間。</string>
+    <string name="draft_fence_real04_title">白柵欄</string>
+    <string name="draft_fence_real04_text">柵欄被漆成白色。</string>
+    <string name="draft_fence_real05_title">石牆</string>
+    <string name="draft_fence_real05_text">低矮堅固的石牆。</string>
+    <string name="draft_fence_real06_title">鐵柵欄</string>
+    <string name="draft_fence_real06_text">磚牆之間的沉重鐵條。</string>
+    <string name="draft_cat_fence00_title">柵欄</string>
+    <string name="ci_neighbor_notrading">沒有鄰近的城市可進行交易。</string>
 
     <string name="settings_sound_master">Master</string>
-    <string name="draft_cemetery01_title">Big Cemetery</string>
-    <string name="draft_cemetery01_text">A place where the remains of dead people are buried. This cemetery has a lot of space.</string>
+    <string name="draft_cemetery01_title">大型墓地</string>
+    <string name="draft_cemetery01_text">埋葬死者遺體的地方。 這個墓地有很多空間。</string>
 
 </resources>
 
